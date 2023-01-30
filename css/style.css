@@ -1,0 +1,165 @@
+html {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+* {
+	-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+}
+*::-moz-selection {
+	background-color: #969f9a;
+	color: #090f13;
+}
+*::selection {
+	background-color: #969f9a;
+	color: #090f13;
+}
+body {
+	margin: 0;
+	height: 100vh;
+	min-height: 650px;
+	background-color: #090f13;
+	text-align: center;
+	color: #969f9a;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 650px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+#header {
+	margin: 15px 10px;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+
+img {
+	width: 100%;
+}
+
+#question {
+	margin: 20px;
+	font-size: 28px;
+}
+
+#link {
+	visibility: hidden;
+	margin: 0px;
+	padding: 0;
+	border-bottom: 1px solid #969f9a;
+	text-decoration: none;
+	font-size: 18px;
+	font-style: italic;
+    font-family: 'Roboto', sans-serif;
+	color: #969f9a;
+}
+
+.buttons {
+	margin: 5px;
+	padding: 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+button {
+	margin: 0 10px;
+	padding: 15px 30px;
+	min-width: 220px;
+	border: 1px solid #969f9a;
+	background-color: transparent;
+	text-transform: uppercase;
+	font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+	color: #969f9a;
+	cursor: pointer;
+}
+
+.bookCover {
+	width: auto;
+	height: 540px;
+}
+
+@media all and (max-width:500px) {
+
+	#header {
+		margin: 15px 5px;
+		font-size: 20px;
+	}
+
+
+	#question {
+		margin: 15px 10px;
+		font-size: 26px;
+	}
+
+	button {
+		margin: 10px 5px;
+		padding: 15px 10px;
+		min-width: 140px;
+		font-size: 15px;
+	}
+
+
+	.bookCover {
+		height: 400px;
+	}
+}
+
+@media all and (max-width:330px) {
+
+	#header {
+		margin: 10px 5px;
+		font-size: 18px;
+	}
+
+
+	#question {
+		margin: 10px 5px;
+		font-size: 22px;
+	}
+
+	button {
+		margin: 5px;
+		padding: 10px 5px;
+		min-width: 120px;
+		font-size: 14px;
+	}
+
+
+	.bookCover {
+		height: 400px;
+	}
+}
+
+
+@media (hover:hover) {
+button:hover {
+	background-color: #969f9a;
+	color: #090f13;
+}
+}
